@@ -1,0 +1,19 @@
+{application, blog,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { blog_app, []}},
+  {env, [
+    {mysql_pool_host, localhost},
+    {mysql_pool_port, 3306},
+    {mysql_pool_size, 200},
+    {mysql_user, "root"},
+    {mysql_pwd, "root"},
+    {mysql_dbname, "blog"}
+  ]}
+ ]}.

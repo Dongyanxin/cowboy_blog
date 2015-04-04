@@ -1,0 +1,16 @@
+{application, ecm,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ecm_app, []}},
+  {env, [
+          {cookie, xzm860614},
+          {compressed_level, 2}            % 压缩级别
+  		  ]
+  }
+ ]}.
