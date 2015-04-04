@@ -1,0 +1,494 @@
+2015-04-04 12:01:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{badmatch,undefined},[{common,get_env,1,[{file,"src/common.erl"},{line,89}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,75}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2015-04-04 12:03:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{badmatch,undefined},[{common,get_env,1,[{file,"src/common.erl"},{line,89}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,75}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2015-04-04 12:04:23 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2015-04-04 12:05:01 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 123
+  neighbours:
+2015-04-04 12:05:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:06:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,75}]},{common,init_app,0,[{file,"src/common.erl"},{line,53}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:07:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,75}]},{common,init_app,0,[{file,"src/common.erl"},{line,53}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 158
+  neighbours:
+2015-04-04 12:09:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:10:08 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:13:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:43:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:43:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:48:12 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,72}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:48:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,72}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 155
+  neighbours:
+2015-04-04 12:52:05 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{badarg,[{emysql,config_ok,1,[{file,"src/emysql.erl"},{line,247}]},{emysql,add_pool,1,[{file,"src/emysql.erl"},{line,276}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,74}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 157
+  neighbours:
+2015-04-04 13:51:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{case_clause,{error_packet,1,1062,<<"23000">>,"Duplicate entry 'ha' for key 'email'"}},[{common,emysql_insert_user,2,[{file,"src/common.erl"},{line,92}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,77}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 159
+  neighbours:
+2015-04-04 13:51:23 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{case_clause,{error_packet,1,1062,<<"23000">>,"Duplicate entry 'ha' for key 'email'"}},[{common,emysql_insert_user,2,[{file,"src/common.erl"},{line,92}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,77}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 159
+  neighbours:
+2015-04-04 13:57:10 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{case_clause,{error_packet,1,1062,<<"23000">>,"Duplicate entry 'ha' for key 'email'"}},[{common,emysql_insert_user,2,[{file,"src/common.erl"},{line,92}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,77}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 159
+  neighbours:
+2015-04-04 14:05:07 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{case_clause,{ok_packet,1,1,20,2,0,[]}},[{common,emysql_insert_user,2,[{file,"src/common.erl"},{line,92}]},{common,initEmysql,0,[{file,"src/common.erl"},{line,77}]},{common,init_app,0,[{file,"src/common.erl"},{line,52}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 151
+  neighbours:
+2015-04-04 14:22:38 =SUPERVISOR REPORT====
+     Supervisor: {local,blog_sup}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{db_mysql,start_link,[],[]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,314}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,297}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,263}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}
+     Offender:   [{pid,undefined},{name,db_mysql},{mfargs,{db_mysql,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-04-04 14:22:38 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,db_mysql,{'EXIT',{undef,[{db_mysql,start_link,[],[]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,314}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,297}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,263}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}}},{blog_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 152
+  neighbours:
+2015-04-04 14:43:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{{case_clause,{result_packet,13,[{field,2,<<"def">>,<<"blog">>,<<"user">>,<<"user">>,<<"id">>,<<"id">>,3,<<>>,63,11,16931,0,#Fun<emysql_tcp.9.94677128>},{field,3,<<"def">>,<<"blog">>,<<"user">>,<<"user">>,<<"username">>,<<"username">>,253,<<>>,33,600,16389,0,#Fun<emysql_tcp.5.94677128>},{field,4,<<"def">>,<<"blog">>,<<"user">>,<<"user">>,<<"email">>,<<"email">>,254,<<>>,33,300,16389,0,#Fun<emysql_tcp.6.94677128>},{field,5,<<"def">>,<<"blog">>,<<"user">>,<<"user">>,<<"password">>,<<"password">>,254,<<>>,33,120,1,0,#Fun<emysql_tcp.6.94677128>},{field,6,<<"def">>,<<"blog">>,<<"user">>,<<"user">>,<<"date">>,<<"date">>,7,<<>>,63,19,9345,0,#Fun<emysql_tcp.19.94677128>}],[[1,<<"xin">>,<<"xin">>,<<"xin">>,{datetime,{{2015,4,4},{13,31,58}}}],[2,<<"a">>,<<"a">>,<<"a">>,{datetime,{{2015,4,4},{13,38,6}}}],[4,<<"b">>,<<"b">>,<<"v">>,{datetime,{{2015,4,4},{13,40,11}}}],[12,<<"ha">>,<<"ha">>,<<"ha">>,{datetime,{{2015,4,4},{13,47,7}}}],[20,<<"haha">>,<<"haha">>,<<"haha">>,{datetime,{{2015,4,4},{14,5,7}}}]],<<>>}},[{db_mysql,emysql_query_user,0,[{file,"src/db_mysql.erl"},{line,55}]},{common,init_app,0,[{file,"src/common.erl"},{line,54}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 201
+  neighbours:
+2015-04-04 14:54:43 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{function_clause,[{emysql_conv,as_record,[[[1,<<"xin">>,<<"xin">>,<<"xin">>,{datetime,{{2015,4,4},{13,31,58}}}],[2,<<"a">>,<<"a">>,<<"a">>,{datetime,{{2015,4,4},{13,38,6}}}],[4,<<"b">>,<<"b">>,<<"v">>,{datetime,{{2015,4,4},{13,40,11}}}],[12,<<"ha">>,<<"ha">>,<<"ha">>,{datetime,{{2015,4,4},{13,47,7}}}],[20,<<"haha">>,<<"haha">>,<<"haha">>,{datetime,{{2015,4,4},{14,5,7}}}]],user,[id,username,email,password,date]],[{file,"src/emysql_conv.erl"},{line,59}]},{db_mysql,emysql_query_user,0,[{file,"src/db_mysql.erl"},{line,57}]},{common,init_app,0,[{file,"src/common.erl"},{line,54}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 175
+  neighbours:
+2015-04-04 15:36:39 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.39.0>
+    registered_name: []
+    exception exit: {{bad_return,{{blog_app,start,[normal,[]]},{'EXIT',{function_clause,[{db_mysql,emysql_query_user,[querty_email_id,{user,undefined,undefined,"xin",undefined,undefined}],[{file,"src/db_mysql.erl"},{line,61}]},{common,init_app,0,[{file,"src/common.erl"},{line,54}]},{blog_app,start,2,[{file,"src/blog_app.erl"},{line,17}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.38.0>]
+    messages: [{'EXIT',<0.40.0>,normal}]
+    links: [<0.38.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 150
+  neighbours:
+2015-04-04 16:41:54 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:41:54 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:41:54 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.202.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:41:54 =ERROR REPORT====
+Error in process <0.202.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:42:14 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.204.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:42:14 =ERROR REPORT====
+Error in process <0.204.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:42:15 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.205.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:42:15 =ERROR REPORT====
+Error in process <0.205.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:43:06 =ERROR REPORT====
+Error in process <0.207.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:43:06 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.207.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:43:07 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.208.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:43:07 =ERROR REPORT====
+Error in process <0.208.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:43:16 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:43:16 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:43:17 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.202.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:43:17 =ERROR REPORT====
+Error in process <0.202.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:44:30 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:44:30 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:44:31 =ERROR REPORT====
+Error in process <0.202.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:44:31 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.202.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:46:39 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:46:39 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:46:39 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:46:39 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:55:48 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:55:48 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:55:49 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:55:49 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:58:15 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:58:15 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 16:58:16 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress... 
+
+2015-04-04 16:58:16 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {function_clause,[{lists,zip,[[transport,connection,pid,method,version,peer,host,host_info,port,path,path_info,qs,qs_vals,bindings,headers,p_headers,cookies,meta,body_state,buffer,multipart,resp_compress,resp_state,resp_headers,resp_body,onresponse],[]],[{file,"lists.erl"},{line,385}]},{lists,zip,2,[{file,"lists.erl"},{line,385}]},{cowboy_handler,handler_terminate,4,[{file,"src/cowboy_handler.erl"},{line,291}]},{cowboy_handler,terminate_request,5,[{file,"src/cowboy_handler.erl"},{line,273}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:01:10 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55991},<<9 bytes>>,undefined,9090,<<6 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<121 bytes>>},... 
+
+2015-04-04 17:01:10 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55991},<<"127.0.0.1">>,undefined,9090,<<"/user/">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5625>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.200.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55991}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/user/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:01:11 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5721>,ranch_tcp,keepalive,<0.201.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},55992},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<3 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},... 
+
+2015-04-04 17:01:11 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5721>,ranch_tcp,keepalive,<0.201.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},55992},<<"127.0.0.1">>,undefined,9090,<<"/favicon.ico">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5721>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.201.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},55992}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/favicon.ico">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:09:41 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56138},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<121 bytes>>},... 
+
+2015-04-04 17:09:41 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56138},<<"127.0.0.1">>,undefined,9090,<<"/user/cdscsd">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5625>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.200.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56138}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/user/cdscsd">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:09:42 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5794>,ranch_tcp,keepalive,<0.201.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56139},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<3 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},... 
+
+2015-04-04 17:09:42 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {[{reason,undef},{mfa,{user_http_controller,init,3}},{stacktrace,[{user_http_controller,init,[{tcp,http},{http_req,#Port<0.5794>,ranch_tcp,keepalive,<0.201.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56139},<<"127.0.0.1">>,undefined,9090,<<"/favicon.ico">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5794>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.201.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56139}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/favicon.ico">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:13:15 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {[{reason,{badmatch,{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56222},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<35 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[{<<10 bytes>>,[<<9 bytes>>,<<1 byte>>,"adsfasdfas",<<11 bytes>>,[<<10 bytes>>,<<29 bytes>>,<<10 bytes>>,"3600"],<<0 bytes>>,... 
+
+2015-04-04 17:13:15 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {[{reason,{badmatch,{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56222},<<"127.0.0.1">>,undefined,9090,<<"/user/cdscsd">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[{<<"set-cookie">>,[<<"sessionid">>,<<"=">>,"adsfasdfas",<<"; Version=1">>,[<<"; Expires=">>,<<"Sat, 04-Apr-2015 10:13:15 GMT">>,<<"; Max-Age=">>,"3600"],<<>>,<<>>,<<>>,<<>>]}],<<>>,undefined}}},{mfa,{user_http_controller,handle,2}},{stacktrace,[{user_http_controller,handle,2,[{file,"src/user_http_controller.erl"},{line,25}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5625>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.200.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56222}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/user/cdscsd">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,{}}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:13:16 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {[{reason,{badmatch,{http_req,#Port<0.5755>,ranch_tcp,keepalive,<0.201.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56223},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<3 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<35 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined,[],waiting,<<0 bytes>>,undefined,false,done,[{<<10 bytes>>,[<<9 bytes>>,<<1 byte>>,"adsfasdfas",<<11 bytes>>,[<<10 bytes>>,<<29 bytes>>,<<10 bytes>>,"3600"],<<0 bytes>>,<<0 bytes>>,<<0 bytes>>,<<0 bytes>>]}],... 
+
+2015-04-04 17:13:16 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {[{reason,{badmatch,{http_req,#Port<0.5755>,ranch_tcp,keepalive,<0.201.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56223},<<"127.0.0.1">>,undefined,9090,<<"/favicon.ico">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,done,[{<<"set-cookie">>,[<<"sessionid">>,<<"=">>,"adsfasdfas",<<"; Version=1">>,[<<"; Expires=">>,<<"Sat, 04-Apr-2015 10:13:16 GMT">>,<<"; Max-Age=">>,"3600"],<<>>,<<>>,<<>>,<<>>]}],<<>>,undefined}}},{mfa,{user_http_controller,handle,2}},{stacktrace,[{user_http_controller,handle,2,[{file,"src/user_http_controller.erl"},{line,25}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5755>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.201.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56223}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/favicon.ico">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,{}}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:22:04 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.200.0> exit with reason: {[{reason,{badmatch,{undefined,{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56446},<<"127.0.0.1">>,undefined,9090,<<"/user/cdscsd">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"cookie">>,undefined},{<<"connection">>,[<<"keep-alive">>]}],[],[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}}}},{mfa,{user_http_controller,handle,2}},{stacktrace,[{user_http_controller,handle,2,[{file,"src/user_http_controller.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5625>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.200.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56446}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/user/cdscsd">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"cache-control">>,<<"max-age=0">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,{}}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:22:04 =ERROR REPORT====
+Error in process <0.200.0> on node 'blog@127.0.0.1' with exit value: {[{reason,{badmatch,{undefined,{http_req,#Port<0.5625>,ranch_tcp,keepalive,<0.200.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56446},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<13 bytes>>,<<9 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<35 bytes>>}],[{<<6 bytes>>,undefined},{<<10 bytes>>,[<<10 bytes>>]}],[],[],waiting,<<0 bytes>>,undefined,false,waiting,[],<<0 bytes>>,undefined... 
+
+2015-04-04 17:22:05 =ERROR REPORT====
+Ranch listener http had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {[{reason,{badmatch,{undefined,{http_req,#Port<0.5755>,ranch_tcp,keepalive,<0.201.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},56447},<<"127.0.0.1">>,undefined,9090,<<"/favicon.ico">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}],[{<<"cookie">>,undefined},{<<"connection">>,[<<"keep-alive">>]}],[],[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined}}}},{mfa,{user_http_controller,handle,2}},{stacktrace,[{user_http_controller,handle,2,[{file,"src/user_http_controller.erl"},{line,31}]},{cowboy_handler,handler_handle,4,[{file,"src/cowboy_handler.erl"},{line,111}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.5755>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.201.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},56447}},{host,<<"127.0.0.1">>},{host_info,undefined},{port,9090},{path,<<"/favicon.ico">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"127.0.0.1:9090">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"*/*">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{state,{}}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2015-04-04 17:22:05 =ERROR REPORT====
+Error in process <0.201.0> on node 'blog@127.0.0.1' with exit value: {[{reason,{badmatch,{undefined,{http_req,#Port<0.5755>,ranch_tcp,keepalive,<0.201.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},56447},<<9 bytes>>,undefined,9090,<<12 bytes>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<3 bytes>>},{<<10 bytes>>,<<121 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<35 bytes>>}],[{<<6 bytes>>,undefined},{<<10 bytes>>,[<<10 bytes>>]}],[],[],waiting,<<0 bytes>>,undefined,false,waiting,[],<<0 bytes>>,undefined}}}},{mfa... 
+
